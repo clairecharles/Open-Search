@@ -17,3 +17,14 @@
 - Pull Request(PR): A place to compare and discuss the differences introduced on a branch with reviews, comments, intergrated tests and more
 
 - HEAD: Represnting your current working directory, the HEAD pointer can be moved to different branches, tags,m or commits when using ```git checkout```
+
+- Source code: The programming instructions that make up software, written in a particular programming language.
+
+- Issue tracker: A tool used to track bugs, feature requests, and other issues related to a particular project.
+
+- Bug tracker: A type of issue tracker specifically used for tracking software bugs.
+
+- Merge request: A request to merge changes made in a branch of a repository back into the main branch.
+
+- Version control: The management of changes made to source code over time, ensuring that the changes are tracked and can be rolled back if necessary.
+
