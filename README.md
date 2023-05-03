@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Open Source Glossary
 
-First, run the development server:
+- Git: An open source distributed version control system
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Github: A platform for hosting and collaborating on git repositories
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Commit: A git object, a snapshot of your entire repository compresses into a SHA
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Branch: A lightweight moveable pointer to a commit
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Clone: A local version of a repository, including all commits and branch
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Remote: A common repository on github that all team members use to exchange their changes
+ 
+- Fork: A copy of a repository on github owned by a different user
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Pull Request(PR): A place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests and more
 
-## Learn More
+- HEAD: Representing your current working directory, the HEAD pointer can be moved to different branches, tags,m or commits when using ```git checkout```
 
-To learn more about Next.js, take a look at the following resources:
+- Source code: The programming instructions that make up software, written in a particular programming language.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Issue tracker: A tool used to track bugs, feature requests, and other issues related to a particular project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Bug tracker: A type of issue tracker specifically used for tracking software bugs.
 
-## Deploy on Vercel
+- Merge request: A request to merge changes made in a branch of a repository back into the main branch.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Version control: The management of changes made to source code over time, ensuring that the changes are tracked and can be rolled back if necessary.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+>>>>>>> 9b9fb8cc06424f55174aa19d270ef13d24a9e27d
