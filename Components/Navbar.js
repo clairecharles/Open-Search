@@ -1,13 +1,7 @@
-import SearchBox from "./SearchBox";
-import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 
 function Navbar() {
-  const [navbar, setNavbar] = useState(false);
-  const [words, setWords] = useState([]);
-  const [darkMode, setDarkMode] = useState(false);
-
-  const { systemTheme, theme, setTheme } = useTheme();
+const { systemTheme, theme, setTheme } = useTheme();
 const currentTheme = theme === "system" ? systemTheme : theme;
 
 
@@ -16,7 +10,7 @@ const currentTheme = theme === "system" ? systemTheme : theme;
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="javascript:void(0)">
+            <a href="#">
               <h2 className="text-2xl font-bold text-black dark:text-white">
                 Open Search
               </h2>

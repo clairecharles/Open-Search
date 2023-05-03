@@ -1,6 +1,5 @@
 import { dictionary } from "./Words";
 import React, { useState } from "react";
-import Modal from "./Modal";
 
 const Dictionary = () => {
   const [searchTerm, setSearchTerm] = useState("");
